@@ -1,5 +1,3 @@
-	$(document).ready(function(){
-
 		//var time=500;
 		//生成食物自调用函数
 		(function(){
@@ -201,7 +199,6 @@
 		//var gm=new Game(document.querySelector(".map"));
 		//开始游戏
 		document.getElementById("begin").onclick=function(){
-			alert("aaa")
 			var time=document.getElementById("time").value || 200;
 				var gm=new Game(document.querySelector(".map"),time);
 			     gm.init();
@@ -213,4 +210,4 @@
 						document.getElementById("newGame").style.display="none";
 						document.getElementById("return").style.display="none";
 		}
-		})
+		
